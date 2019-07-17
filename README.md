@@ -8,7 +8,7 @@ The patched version of the ape package here has to be installed first.
 
 Then, to calculate the distances:
 ```sh
-$ ./print_distances.R /path/to/tree
+$ ./print_distances.R /path/to/tree |gzip >distances.tsv.gz
 ```
 
 Then to read the distances in:
